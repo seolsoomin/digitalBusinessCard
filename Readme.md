@@ -3,7 +3,7 @@
 
 # 1. 요구&분석
 ## 1-1. 프로젝트 배경
-최근 다양한 '디지털 명함' 서비스가 출시되고 있으나, 아직까지 명함의 디지털 전환은 이루어지지 않고 있다. 
+최근 다양한 '디지털 명함' 서비스가 출시되고 있으나, 아직까지 명함의 디지털 전환은 이루어지지 않고 있다.  
 따라서 해당 프로젝트를 통해 어느 정도의 인지도를 가지고 있는 디지털 명함 서비스들의 장/단점을 분석, *어째서 사람들이 여전히 종이 명함을 선호하는지*에 대해서와 *디지털 전환을 위해 반드시 필요한 기능은 무엇인지* 찾아내어 이를 해결할 수 있는 디지털 명함 서비스를 제공하고자 한다. 
 
 ## 1-2. 프로젝트 목표
@@ -41,7 +41,7 @@
 2. '명함 만들기' 버튼 클릭
 3. 필수 입력값 (이름, 영어 이름, 회사 로고, 회사명, 휴대전화 번호, 이메일 주소, 회사 주소) 입력
 4. 완료 버튼 클릭
-5. '마이 페이지' 에서 '내 명함' 에 들어가 제작한 명함 확인
+5. '마이 페이지' 에서 '내 명함' 에 들어가 제작한 명함 확인  
 *해당 서비스를 이용하지 않는 사람에게도 명함을 줄 수 있게, PNG로 다운로드받는 버튼을 만들어 해당 버튼의 작동도 확인한다.*
 
 ## 3-3. 명함 교환
@@ -79,6 +79,10 @@
 - ✓ 사용자, 명함, 교환 이력 등 ERD 설계
 
   <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2Fbg4j8V%2FdJMcajnSgUc%2FAAAAAAAAAAAAAAAAAAAAALHHecTWDmWmRuWrVTY3GLEsIy3UO8Lfojbe7iY51cU0%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1774969199%26allow_ip%3D%26allow_referer%3D%26signature%3D2IK%252B213lSeJ%252BFgXKigAOTd0sWTw%253D">
+
+**참고자료**  
+[[MariaDB] MariaDB 설치 및 DBeaver 연동](https://developlsb2dwb.tistory.com/26)  
+이고잉. 『생활코딩! 리액트 프로그래밍』. 위키북스, 2021
 
 ## 4-2. 2주차
 ### 인터페이스 구현 및 로직 개발
