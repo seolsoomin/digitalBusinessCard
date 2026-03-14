@@ -13,7 +13,7 @@
 # 2. 설계
 ## 2-1. 시스템 아키텍쳐
 - Frontend : React
-- Backend : Node.js + Express
+- Backend : Java
 - Database : MariaDB
 - Auth : OAuth 2.0 (Google Login Api)
 
@@ -22,7 +22,7 @@
 - [ ] 명함 제작
 - [ ] 명함 교환
 - [ ] 교환받은 명함 확인
-- [ ] '지인' 기능을 통한 타인의 명함 공유
+- [ ] '친구' 기능을 통한 타인의 명함 공유
 
 # 3. 테스트 시나리오
 원활한 테스트를 위해 구글 계정 2개를 필요로 한다.
@@ -42,6 +42,7 @@
 3. 필수 입력값 (이름, 영어 이름, 회사 로고, 회사명, 휴대전화 번호, 이메일 주소, 회사 주소) 입력
 4. 완료 버튼 클릭
 5. '마이 페이지' 에서 '내 명함' 에 들어가 제작한 명함 확인
+*해당 서비스를 이용하지 않는 사람에게도 명함을 줄 수 있게, PNG로 다운로드받는 버튼을 만들어 해당 버튼의 작동도 확인한다.*
 
 ## 3-3. 명함 교환
 타 계정으로 로그인하여 명함 카드를 교환받는다. 
@@ -57,12 +58,12 @@
 1. '마이 페이지'에서 '받은 명함'에 들어가 받은 명함 확인
 2. 명함 우측의 메모 아이콘을 눌러 메모 작성
 
-## 3-5. '지인' 기능
-'지인' 신청을 승인해준 타인의 명함을 주고받을 수 있는지 확인한다. 
-1. 명함 우측의 별표 아이콘을 눌러 '지인' 신청
+## 3-5. '친구' 기능
+'친구' 신청을 승인해준 타인의 명함을 주고받을 수 있는지 확인한다. 
+1. 명함 우측의 별표 아이콘을 눌러 '친구' 신청
 2. 로그아웃
 3. 계정 1 로그인
-4. 알람 버튼을 눌러 '지인'신청 승낙
+4. 알람 버튼을 눌러 '친구'신청 승낙
 5. 로그아웃
 6. 계정 2 로그인
 7. 승낙 이후 생성된 '명함 교환' 버튼 클릭
@@ -73,11 +74,11 @@
 
 ## 4-1. 1주차
 ### 서비스 요구사항 명세화, 데이터 관계 정의
-- REST api 설계
-- 개발 환경 구축
-- 사용자, 명함, 교환 이력 등 ERD 설계
+- ✓ REST api 설계
+- ✓ 개발 환경 구축
+- ✓ 사용자, 명함, 교환 이력 등 ERD 설계
 
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FFa8sS%2FdJMcahcAC8j%2FAAAAAAAAAAAAAAAAAAAAAJ81rXt1_qOIkTF7FoNSAlmBvhmMy0vU8va_28pHQbwn%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1774969199%26allow_ip%3D%26allow_referer%3D%26signature%3DR5JNgRnqh1vHnon14rWllDG%252FPq0%253D">
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2Fbg4j8V%2FdJMcajnSgUc%2FAAAAAAAAAAAAAAAAAAAAALHHecTWDmWmRuWrVTY3GLEsIy3UO8Lfojbe7iY51cU0%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1774969199%26allow_ip%3D%26allow_referer%3D%26signature%3D2IK%252B213lSeJ%252BFgXKigAOTd0sWTw%253D">
 
 ## 4-2. 2주차
 ### 인터페이스 구현 및 로직 개발
