@@ -77,6 +77,8 @@
 - 개발 환경 구축
 - 사용자, 명함, 교환 이력 등 ERD 설계
 
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FFa8sS%2FdJMcahcAC8j%2FAAAAAAAAAAAAAAAAAAAAAJ81rXt1_qOIkTF7FoNSAlmBvhmMy0vU8va_28pHQbwn%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1774969199%26allow_ip%3D%26allow_referer%3D%26signature%3DR5JNgRnqh1vHnon14rWllDG%252FPq0%253D">
+
 ## 4-2. 2주차
 ### 인터페이스 구현 및 로직 개발
 - Google OAuth 2.0을 이용하여 로그인/로그아웃 구현
