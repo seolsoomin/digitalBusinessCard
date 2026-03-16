@@ -74,15 +74,18 @@
 
 ## 4-1. 1주차
 ### 서비스 요구사항 명세화, 데이터 관계 정의
-- ✓ REST api 설계
+- ✓ REST api 설계  
+  [API 설계 Notion]https://www.notion.so/API-325ecae04594800db824fac71cdcb622?source=copy_link
 - ✓ 개발 환경 구축
 - ✓ 사용자, 명함, 교환 이력 등 ERD 설계
 
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2Fbg4j8V%2FdJMcajnSgUc%2FAAAAAAAAAAAAAAAAAAAAALHHecTWDmWmRuWrVTY3GLEsIy3UO8Lfojbe7iY51cU0%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1774969199%26allow_ip%3D%26allow_referer%3D%26signature%3D2IK%252B213lSeJ%252BFgXKigAOTd0sWTw%253D">
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FbYq3WA%2FdJMcac3p7vQ%2FAAAAAAAAAAAAAAAAAAAAAJQ7EeQhxJc62Y5MhNejz2EBshdhTc0KJoEqihhiMW1v%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1774969199%26allow_ip%3D%26allow_referer%3D%26signature%3DhtOHYOwid2yZfqZykyhG8AxJuJw%253D">
 
 **참고자료**  
 [[MariaDB] MariaDB 설치 및 DBeaver 연동](https://developlsb2dwb.tistory.com/26)  
-이고잉. 『생활코딩! 리액트 프로그래밍』. 위키북스, 2021
+이고잉. 『생활코딩! 리액트 프로그래밍』. 위키북스, 2021  
+[개발 초보를 위한 RESTful API 설계 가이드](https://velog.io/@couchcoding/%EA%B0%9C%EB%B0%9C-%EC%B4%88%EB%B3%B4%EB%A5%BC-%EC%9C%84%ED%95%9C-RESTful-API-%EC%84%A4%EA%B3%84-%EA%B0%80%EC%9D%B4%EB%93%9C)  
+[[Java] RESTful API 설계 방법 -2 : 구성하기](https://adjh54.tistory.com/151)
 
 ## 4-2. 2주차
 ### 인터페이스 구현 및 로직 개발
@@ -97,7 +100,7 @@
 - 교환 시점의 시간 저장 기능 구현
 
 ## 4-4. 4주차
-### '지인' 기능을 통한 추가 공유 기능
+### '친구' 기능을 통한 추가 공유 기능
 - 요청/승인 기반의 명함 공유 권한 로직 구현
 - 전체 서비스 테스트 및 버그 수정
 
