@@ -75,7 +75,7 @@
 ## 4-1. 1주차
 ### 서비스 요구사항 명세화, 데이터 관계 정의
 - ✓ REST api 설계  
-  [API 설계 Notion]https://www.notion.so/API-325ecae04594800db824fac71cdcb622?source=copy_link
+  [API 설계 Notion](https://www.notion.so/API-325ecae04594800db824fac71cdcb622?source=copy_link)
 - ✓ 개발 환경 구축
 - ✓ 사용자, 명함, 교환 이력 등 ERD 설계
 
