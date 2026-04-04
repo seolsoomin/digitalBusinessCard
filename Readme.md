@@ -1,4 +1,4 @@
-# Digital Business Card
+# LinkIt
 디지털로 명함을 생성, 주고받을 수 있는 REST와 React 기반의 개인 웹 프로젝트
 
 # 1. 요구&분석
